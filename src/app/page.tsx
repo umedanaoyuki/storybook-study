@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Circle from "@/stories/Circle";
 
 export default function Home() {
   return (
@@ -111,6 +112,8 @@ export default function Home() {
       <h1 className="text-3xl font-bold underline decoration-red-800">
         Hello world!
       </h1>
+      <Circle />
+      <h2>ハロー</h2>
     </main>
   )
 }
